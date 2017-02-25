@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2ACF477A-FDBD-474E-B109-1EDFB1D1255F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9426574C-EEF0-449F-AEEE-0CFBF088EAF6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NCmdlet", "src\NCmdlet\NCmdlet.xproj", "{C10EDCF0-0FF6-4840-AED6-D8D6E6F575BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{366D5BA0-D372-4C72-9024-1C1BBD23373C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NCmdlet.Tests", "test\NCmdlet.Tests\NCmdlet.Tests.xproj", "{D818CCE3-F1E7-4D1B-A2D0-2DEBF5D775CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C10EDCF0-0FF6-4840-AED6-D8D6E6F575BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10EDCF0-0FF6-4840-AED6-D8D6E6F575BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10EDCF0-0FF6-4840-AED6-D8D6E6F575BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10EDCF0-0FF6-4840-AED6-D8D6E6F575BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D818CCE3-F1E7-4D1B-A2D0-2DEBF5D775CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D818CCE3-F1E7-4D1B-A2D0-2DEBF5D775CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D818CCE3-F1E7-4D1B-A2D0-2DEBF5D775CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D818CCE3-F1E7-4D1B-A2D0-2DEBF5D775CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C10EDCF0-0FF6-4840-AED6-D8D6E6F575BD} = {2ACF477A-FDBD-474E-B109-1EDFB1D1255F}
+		{D818CCE3-F1E7-4D1B-A2D0-2DEBF5D775CE} = {366D5BA0-D372-4C72-9024-1C1BBD23373C}
+	EndGlobalSection
+EndGlobal
